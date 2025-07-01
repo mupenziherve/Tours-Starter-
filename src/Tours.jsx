@@ -1,6 +1,7 @@
+import Loading from "./Loading";
 import Tour from "./Tour";
 
-const Tours = ({tours}) => {
+const PlacesToVisits = ({fetchedData}) => {
   return (
     <section>
         <div className="title">
@@ -8,13 +9,13 @@ const Tours = ({tours}) => {
         <div className="title-underline"></div>
         </div>
         <div className="tours">
-            {tours.map((tour) =>{
-                console.log(tour);
-    return  <Tour key={tour.id} {...tour} />;
 
+            {fetchedData.map((eachTourData) =>{           
+    return  <Tour key={eachTourData.id}  {...eachTourData} />
             })}
+
         </div>
     </section>
   );
 };
-export default Tours;
+export default PlacesToVisits;
