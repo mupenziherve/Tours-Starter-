@@ -1,9 +1,9 @@
 
 const Tour = ({id, image, info, name, price}) => {
   return (
-    <article className="single-tours">
+    <article className="single-tour">
         <img src={image} alt={name} className="img" />
-        <span className="tours-price" >${price}</span>
+        <span className="tour-price" >${price}</span>
 
     </article>
   );
