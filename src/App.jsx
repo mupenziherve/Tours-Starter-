@@ -42,6 +42,12 @@ useEffect(() => {
  <PlacesToVisits fetchedData={tours} removeTour={removeTour}  />
   </div>;
 }
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, sit! Sit nihil omnis explicabo praesentium quidem ipsum ab corporis, neque doloribus exercitationem. Nemo corrupti maiores numquam dolore beatae similique quia?
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, sit! Sit nihil omnis explicabo praesentium quidem ipsum ab corporis, neque doloribus exercitationem. Nemo corrupti maiores numquam dolore beatae similique quia?
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, sit! Sit nihil omnis explicabo praesentium quidem ipsum ab corporis, neque doloribus exercitationem. Nemo corrupti maiores numquam dolore beatae similique quia?
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, sit! Sit nihil omnis explicabo praesentium quidem ipsum ab corporis, neque doloribus exercitationem. Nemo corrupti maiores numquam dolore beatae similique quia?
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, sit! Sit nihil omnis explicabo praesentium quidem ipsum ab corporis, neque doloribus exercitationem. Nemo corrupti maiores numquam dolore beatae similique quia?
+
 export default App;
 
 
