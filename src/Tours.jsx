@@ -1,7 +1,7 @@
 
 import Tour from "./Tour";
 
-const PlacesToVisits = ({fetchedData}) => {
+const PlacesToVisits = ({fetchedData, removeTour}) => {
   return (
     <section>
         <div className="title">
@@ -11,7 +11,7 @@ const PlacesToVisits = ({fetchedData}) => {
         <div className="tours">
 
             {fetchedData.map((eachTourData) =>{           
-    return  <Tour key={eachTourData.id}  {...eachTourData} />
+    return  <Tour key={eachTourData.id}  {...eachTourData} removeTour={removeTour} />
             })}
 
         </div>
